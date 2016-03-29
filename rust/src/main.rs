@@ -8,6 +8,7 @@ fn main() {
         Ok(Response::with((status::Ok, "yo!")))
     }
 
-    Iron::new(hello_world).http("localhost:3000").unwrap();
-    println!("On 3000");
+	println!("On 3000");
+	
+    Iron::new(hello_world).http("localhost:3000").unwrap();    
 }
