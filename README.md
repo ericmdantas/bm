@@ -232,3 +232,40 @@ Latency distribution:
   95% in 1.2271 secs
   99% in 2.2781 secs
 ```
+
+
+- CSharp - NancyFx.SelfHosting
+
+```
+Summary:
+  Total:	15.9582 secs
+  Slowest:	7.1564 secs
+  Fastest:	0.0000 secs
+  Average:	1.4180 secs
+  Requests/sec:	3890.6039
+
+Status code distribution:
+  [200]	62087 responses
+
+Response time histogram:
+  0.000 [1]	|
+  0.716 [11187]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  1.431 [28361]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  2.147 [8188]	|∎∎∎∎∎∎∎∎∎∎∎
+  2.863 [10084]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  3.578 [2265]	|∎∎∎
+  4.294 [952]	|∎
+  5.010 [543]	|
+  5.725 [291]	|
+  6.441 [206]	|
+  7.156 [9]	|
+
+Latency distribution:
+  10% in 0.3861 secs
+  25% in 0.8112 secs
+  50% in 1.1062 secs
+  75% in 2.0604 secs
+  90% in 2.6815 secs
+  95% in 3.1766 secs
+  99% in 4.7580 secs
+```
