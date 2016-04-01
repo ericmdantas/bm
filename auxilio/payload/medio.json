@@ -1,0 +1,16 @@
+{
+  "usuario": "Abc Def",
+  "email": "abc@def.com",
+  "senha": 123456,
+  "hash": "07f37445-ef29-4851-8ea6-f4901aedb979",
+  "endereco": {
+    "cep": "00000-000",
+    "logradouro": "Logradouro",
+    "complemento": "Complemento",
+    "bairro": "Bairro",
+    "localidade": "Localidade",
+    "uf": "SP",
+    "unidade": "",
+    "ibge": 9999999
+  }
+}
