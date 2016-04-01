@@ -1,2 +1,4 @@
 node_modules
 rust/target
+java/**/target
+**/.*.swp
