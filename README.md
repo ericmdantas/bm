@@ -234,7 +234,7 @@ Latency distribution:
 ```
 
 
-- CSharp - NancyFx.SelfHosting
+- CSharp NancyFx.Self-Hosting:
 
 ```
 Summary:
