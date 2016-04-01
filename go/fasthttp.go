@@ -10,10 +10,14 @@ const (
 	port = ":3000"
 )
 
+var (
+	msg = []byte("yo!")
+)
+
 func main() {
 	fmt.Println(port)
 
 	fasthttp.ListenAndServe(port, func(ctx *fasthttp.RequestCtx) {
-		ctx.Write([]byte("yo!"))
+		ctx.Write(msg)
 	})
 }

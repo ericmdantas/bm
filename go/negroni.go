@@ -11,11 +11,15 @@ const (
 	port = ":3000"
 )
 
+var (
+	msg = []byte("yo!")
+)
+
 func main() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("yo!"))
+		w.Write(msg)
 	})
 
 	fmt.Println(port)
