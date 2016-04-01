@@ -238,34 +238,73 @@ Latency distribution:
 
 ```
 Summary:
-  Total:	15.9582 secs
-  Slowest:	7.1564 secs
+  Total:	13.7871 secs
+  Slowest:	5.2326 secs
   Fastest:	0.0000 secs
-  Average:	1.4180 secs
-  Requests/sec:	3890.6039
+  Average:	1.2363 secs
+  Requests/sec:	5270.7107
 
 Status code distribution:
-  [200]	62087 responses
+  [200]	72668 responses
 
 Response time histogram:
-  0.000 [1]	|
-  0.716 [11187]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
-  1.431 [28361]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
-  2.147 [8188]	|∎∎∎∎∎∎∎∎∎∎∎
-  2.863 [10084]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎
-  3.578 [2265]	|∎∎∎
-  4.294 [952]	|∎
-  5.010 [543]	|
-  5.725 [291]	|
-  6.441 [206]	|
-  7.156 [9]	|
+  0.000 [4]	|
+  0.523 [7631]	|∎∎∎∎∎∎∎∎
+  1.047 [37979]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  1.570 [8677]	|∎∎∎∎∎∎∎∎∎
+  2.093 [8075]	|∎∎∎∎∎∎∎∎
+  2.616 [3974]	|∎∎∎∎
+  3.140 [2834]	|∎∎
+  3.663 [915]	|
+  4.186 [1558]	|∎
+  4.709 [568]	|
+  5.233 [453]	|
 
 Latency distribution:
-  10% in 0.3861 secs
-  25% in 0.8112 secs
-  50% in 1.1062 secs
-  75% in 2.0604 secs
-  90% in 2.6815 secs
-  95% in 3.1766 secs
-  99% in 4.7580 secs
+  10% in 0.5092 secs
+  25% in 0.7382 secs
+  50% in 0.9143 secs
+  75% in 1.5815 secs
+  90% in 2.4777 secs
+  95% in 3.0999 secs
+  99% in 4.4563 secs
 ```
+
+
+- CSharp WebApi.Owin.SelfHost
+
+```
+Summary:
+  Total:	14.6994 secs
+  Slowest:	4.9775 secs
+  Fastest:	0.0000 secs
+  Average:	1.2791 secs
+  Requests/sec:	4842.0316
+  Total data:	284700 bytes
+  Size/request:	4 bytes
+
+Status code distribution:
+  [200]	71175 responses
+
+Response time histogram:
+  0.000 [2]	|
+  0.498 [6080]	|∎∎∎∎∎∎∎
+  0.995 [32556]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  1.493 [12318]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  1.991 [5799]	|∎∎∎∎∎∎∎
+  2.489 [5930]	|∎∎∎∎∎∎∎
+  2.986 [5716]	|∎∎∎∎∎∎∎
+  3.484 [1662]	|∎∎
+  3.982 [619]	|
+  4.480 [484]	|
+  4.977 [9]	|
+
+Latency distribution:
+  10% in 0.5282 secs
+  25% in 0.7552 secs
+  50% in 0.9593 secs
+  75% in 1.7535 secs
+  90% in 2.5968 secs
+  95% in 2.9179 secs
+  99% in 3.8352 secs
+```  
