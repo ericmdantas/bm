@@ -1,4 +1,6 @@
-```boom -n 100000 -c 10000 http://localhost:PORT```
+```shell
+boom -n 100000 -c 10000 http://localhost:PORT
+```
 
 - Vanilla Node:
 
