@@ -308,3 +308,40 @@ Latency distribution:
   95% in 2.9179 secs
   99% in 3.8352 secs
 ```  
+
+
+- Pure python
+
+```
+Summary:
+  Total:	25.5676 secs
+  Slowest:	4.2101 secs
+  Fastest:	0.9872 secs
+  Average:	1.7560 secs
+  Requests/sec:	380.0513
+
+Status code distribution:
+  [200]	9717 responses
+
+Response time histogram:
+  0.987 [1]	|
+  1.309 [1792]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  1.632 [2670]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  1.954 [1681]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  2.276 [2616]	|∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  2.599 [446]	|∎∎∎∎∎∎
+  2.921 [283]	|∎∎∎∎
+  3.243 [171]	|∎∎
+  3.565 [31]	|
+  3.888 [1]	|
+  4.210 [25]	|
+
+Latency distribution:
+  10% in 1.0313 secs
+  25% in 1.5239 secs
+  50% in 1.7353 secs
+  75% in 2.0630 secs
+  90% in 2.2717 secs
+  95% in 2.6155 secs
+  99% in 3.1570 secs
+```  
