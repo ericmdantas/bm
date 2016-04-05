@@ -18,6 +18,8 @@
   "homepage": "https://github.com/ericmdantas/bm#readme",
   "dependencies": {
     "express": "^4.13.4",
-    "koa": "^1.2.0"
+    "hapi": "^13.3.0",
+    "koa": "^1.2.0",
+    "restify": "^4.0.4"
   }
 }
