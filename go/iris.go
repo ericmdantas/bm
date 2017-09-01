@@ -11,11 +11,10 @@ const (
 )
 
 func main() {
-	fmt.Println(port)
+	app := iris.New()
+	app.Get("/", func(c iris.Context) {
+		c.Text("yo!")
+	})
 
-    iris.Get("/", func(c *iris.Context) {
-        c.Text("yo!")
-    })
-	
-    iris.Listen(port)
+	app.Run(iris.Addr(port))
 }
