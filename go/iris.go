@@ -13,7 +13,7 @@ const (
 func main() {
 	app := iris.New()
 	app.Get("/", func(c iris.Context) {
-		c.Text("yo!")
+		c.Write(msg)
 	})
 
 	app.Run(iris.Addr(port))
