@@ -1,5 +1,11 @@
 package main
 
+/*
+build github.com/ericmdantas/bm/go: cannot load github.com/labstack/echo/v4/engine/fasthttp:
+  module github.com/labstack/echo/v4@latest
+  found (v4.1.11), but does not contain package github.com/labstack/echo/v4/engine/fasthttp
+
+
 import (
 	"net/http"
 	"fmt"
@@ -23,3 +29,4 @@ func main() {
 	
 	e.Run(fasthttp.New(port))
 }
+*/

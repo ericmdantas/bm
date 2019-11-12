@@ -1,13 +1,13 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/kataras/iris"
-)
+import "github.com/kataras/iris/v12"
 
 const (
 	port = ":3000"
+)
+
+var (
+	msg = []byte("yo!")
 )
 
 func main() {
