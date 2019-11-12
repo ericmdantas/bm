@@ -4,8 +4,7 @@ import (
 	"net/http"
 	"fmt"
 
-	"github.com/labstack/echo/engine/standard"
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 const (
