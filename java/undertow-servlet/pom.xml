@@ -37,7 +37,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<undertow.version>1.4.3.Final</undertow.version>
+		<undertow.version>2.0.27.Final</undertow.version>
 	</properties>
 
 	<dependencies>
